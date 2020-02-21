@@ -71,7 +71,7 @@ def fibonacci(n):
         return 0
     if n<=3:
         return 1
-    return add(fibonacci(n-2),fibonacci(n-1))
+    return add(fibonacci(n-1),fibonacci(n-2))
 print(fibonacci(8))
 
 
